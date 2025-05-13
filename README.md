@@ -1,5 +1,5 @@
 # Walmart-Trends
-Dataset: Walmart Sales Data
+Dataset: https://www.kaggle.com/datasets/yasserh/walmart-dataset
 1) Which product categories show highest sales volatility weekly?
 2) Do holiday weeks significantly outperform regular weeks?
 3)  Can we predict weekly sales using pricing and promotion data?
