@@ -8,7 +8,7 @@ Dataset: https://www.kaggle.com/datasets/yasserh/walmart-dataset
 
 LightGBM Prediction App (Flask + GitHub Codespaces)
 
-This is a simple Flask web application that uses a pre-trained LightGBM model to make predictions based on user input. It is designed to run easily inside GitHub Codespaces.
+This is a simple Flask web application that uses a pre-trained LightGBM model to make predictions based on user input.
 
 Features
 
