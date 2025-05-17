@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Sales Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .prediction {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #00008B;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weekly Sales Predictor</h1>
+    <form method="post">
+        <label for="store">Store (1 - 45)</label>
+        <input type="number" id="store" name="store" min="1" max="45" required>
+
+        <label for="holiday_flag">Holiday Flag (0 or 1)</label>
+        <input type="number" id="holiday_flag" name="holiday_flag" min="0" max="1" required>
+
+        <label for="temperature">Temperature (-2.06 to 100.14)</label>
+        <input type="number" id="temperature" name="temperature" step="0.01" required>
+
+        <label for="fuel_price">Fuel Price (2.472 to 4.468)</label>
+        <input type="number" id="fuel_price" name="fuel_price" step="0.001" required>
+
+        <label for="cpi">CPI (126.064 to 227.238)</label>
+        <input type="number" id="cpi" name="cpi" step="0.001" required>
+
+        <label for="unemployment">Unemployment (3.879 to 14.313)</label>
+        <input type="number" id="unemployment" name="unemployment" step="0.001" required>
+
+        <input type="submit" value="Predict Sales">
+    </form>
+
+    {% if prediction %}
+    <div class="prediction">
+        Predicted Weekly Sales: {{ prediction }}
+    </div>
+    {% endif %}
+</body>
+</html>
