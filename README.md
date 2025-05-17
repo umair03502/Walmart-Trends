@@ -28,8 +28,11 @@ project-root/
 ├── README.md # You're reading this!
 
 1. Clone the Repository 
+
 bash
-git clone https://github.com/your-username/your-repo-name.git
+
+git clone https://github.com/umair03502/Walmart-Trends.git
+
 cd your-repo-name
 
 2. Create Virtual Environment
