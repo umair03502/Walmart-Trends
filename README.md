@@ -19,13 +19,18 @@ Features
 - Ready to run in GitHub Codespaces or locally
 
 Project Structure
+
 project-root/
+
 ├── app.py # Main Flask application
+
 ├── lgbm_model_pipeline.joblib # Trained model pipeline (joblib)
+
 ├── templates/
+
 │ └── index.html # HTML form for user input
+
 ├── requirements.txt # Python dependencies
-├── README.md # You're reading this!
 
 1. Clone the Repository 
 
@@ -33,18 +38,24 @@ bash
 
 git clone https://github.com/umair03502/Walmart-Trends.git
 
-cd your-repo-name
+cd Walmart-Trends/Application
 
 2. Create Virtual Environment
+   
 python -m venv venv
-source venv/bin/activate  
-On Windows use 
+
+source venv/bin/activate
+
+On Windows use:
+
 venv\Scripts\activate
 
-3. Install Dependencies
+4. Install Dependencies
+   
 pip install -r requirements.txt
 
-5. Run the Flask App
+6. Run the Flask App
+   
 python app.py
 
 
