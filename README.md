@@ -8,6 +8,7 @@ Dataset: https://www.kaggle.com/datasets/yasserh/walmart-dataset
 
 Answers with plots:
 1) ![image](https://github.com/user-attachments/assets/9a12b5c7-068b-4e41-b429-a8de32afe7ef)
+
 Weekly sales vary widely across stores.
 Some stores show high sales with large fluctuations.
 Several stores have extreme outlier sales weeks.
@@ -15,16 +16,19 @@ Low-sales stores tend to have more stable sales.
 Sales volatility suggests different store management needs.
 
 2) ![image](https://github.com/user-attachments/assets/2962d340-e1a6-49cf-a61e-142f4818acf4)
+
 The data confirms that on average, holiday weeks outperform regular weeks in sales.
 The presence of error bars helps to visualize uncertainty and is good practice to assess reliability.
 Further statistical testing could validate if the difference is statistically significant.
 
 3)![image](https://github.com/user-attachments/assets/f0c6252b-fa19-4207-801d-182ba772487c)
+
 The sales distribution during holiday weeks is clearly different and often higher compared to non-holiday weeks.
 This suggests that holiday weeks significantly outperform regular weeks in terms of weekly sales, with more sales volume and more variability.
 The multiple peaks in the holiday sales density may reflect different types or intensities of holiday promotions or shopping spikes.
 
 4)![image](https://github.com/user-attachments/assets/6d954d35-facc-4b53-af73-3ef646bd60bf)
+
 Weekly sales do not show a strong direct correlation with temperature; sales are spread broadly across all temperature ranges.
 Holiday weeks (orange points) appear more scattered and less dense compared to non-holiday weeks (blue points), indicating fewer observations during holidays.
 There is no clear pattern suggesting that temperature significantly influences sales during holiday or non-holiday weeks.
