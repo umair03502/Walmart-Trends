@@ -81,32 +81,31 @@ project-root/
 
 git clone https://github.com/umair03502/Walmart-Trends.git
 
-```bash
-
+###
 cd Walmart-Trends/Application
 
-2. Create Virtual Environment
+###2. Create Virtual Environment
 
 ```bash
    
 python -m venv venv
 
-On Linux use:
+###On Linux use:
 
 ```bash
 source venv/bin/activate
 
-On Windows use:
+###On Windows use:
 
 ```bash
 venv\Scripts\activate
 
-4. Install Dependencies
+###4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 
-6. Run the Flask App
+###6. Run the Flask App
 
 ```bash
 python app.py
